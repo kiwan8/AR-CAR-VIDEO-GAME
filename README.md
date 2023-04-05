@@ -9,13 +9,14 @@ Pour jouer, vous devez télécharger l'application (uniquement sur Android) et l
 ## Fonctionnalité
 Le jeu offre les fonctionnalités suivantes:
 
+* Score affichant le nombre de cadeau collecter par le joueur dans l'interface utilisateur
+* Bouton pour recommencer la partie dans l'interface utilisateur 
+* Effet de particules lorsqu'un cadeau est collecté par la voiture
 * Détection de plans réels pour placer le terrain de jeu en réalité augmentée
 * Interactions entre les objets virtuels et le monde réel grâce à l'utilisation de la caméra
 * Trois objets 3D: une voiture, un viseur sur le sol et les cadeaux à collecter
-* Effet de particules lorsqu'un cadeau est collecté par la voiture
-* Score affichant le nombre de cadeau collecter dans l'interface utilisateur
-* Bouton de réinitialisation pour recommencer une partie
 
 ## Bonus
 
-En plus des fonctionnalités mentionnées ci-dessus, une implémentation supplémentaire a été ajoutée pour offrir une immersion accrue dans le jeu. Cette implémentation consiste à ajouter un sol sur la surface plane détectée par la caméra. Cela permet aux joueurs de voir le terrain de jeu se fondre encore plus dans le monde réel, ce qui ajoute une couche supplémentaire d'immersion dans le jeu. Cette fonctionnalité est conçue pour renforcer l'expérience de réalité augmentée et pour offrir aux joueurs une expérience de jeu plus immersive.
+- Musique de fonds 
+- Logo pour l'application
