@@ -1,24 +1,26 @@
 # AR Car Video Game
 
-Ce jeu de réalité augmentée utilise ARCore et Unity's AR Foundation. Dans ce jeu, votre objectif est de collecter des jetons à l'aide d'une voiture que vous contrôlez à l'aide de votre appareil mobile.
+Dans ce jeu de réalité augmentée, votre objectif est de collecter des cadeaux à l'aide d'une voiture que vous contrôlez grâce à votre appareil mobile.
 
 ## Comment jouer 
 
-Pour jouer à ce jeu, vous devez télécharger l'application sur votre téléphone Android et l'ouvrir. Ensuite, en pointant votre téléphone vers une surface plane, le jeu pourra détecter le sol et créer votre terrain de jeu. Une fois cette étape terminée, vous aurez besoin d'appuyer sur l'écran pour faire apparaître la voiture et vous pourrez la contrôler en utilisant les mouvements de votre téléphone.
+Pour jouer à ce jeu, il suffit de télécharger l'application sur votre téléphone Android, de l'ouvrir et de pointer votre téléphone vers une surface plane. En détectant le sol, le jeu créera automatiquement votre terrain de jeu. Une fois cette étape terminée, il ne vous restera plus qu'à appuyer sur l'écran pour faire apparaître la voiture et la contrôler en utilisant les mouvements de votre téléphone. La voiture suivra le pointeur bleu posé au sol.  Attention à bien mettre votre téléphone en mode portrait.
 
 ## Fonctionnalité
 Le jeu offre les fonctionnalités suivantes:
 
 * Réalité Augmenté
-* Le but du jeu est d'obtenir le meilleur score possible en collectant des jetons
-* 3 objets 3D : une voiture, un pointeur et les jetons à collecter (ces 3 objets ont chacun leurs propres materials)
-* Score affichant le nombre de cadeau collecter par le joueur dans l'HUD
-* 1 touch interaction : Appuyer sur l'écran pour faire apparaître la voiture
-* 1 bouton dans pour recommencer la partie dans l'interface utilisateur 
-* Effet de particules lorsqu'un jeton est collecté par la voiture
+* Le but du jeu est d'obtenir le meilleur score possible en collectant des cadeaux.
+* 3 objets 3D : une voiture, un pointeur et les cadeaux à collecter (ces 3 objets ont chacun leurs propres materials)
+* Score affichant le nombre de points obtenus grâce aux cadeaux collectés par le joueur.
+* 1 interaction tactile : appuyer sur l'écran pour faire apparaître la voiture.
+* 1 bouton dans pour recommencer et recalibrer la partie 
 * C'est fun !
 
 ## Bonus
 
-- Musique de fonds 
-- Logo pour l'application
+En plus des fonctionnalités précédentes, le jeu offre les bonus suivants :
+
+* Bruitage intégré : le jeu émet un bruitage au démarrage de l'application pour vous plonger directement dans l'ambiance de conduite.
+* Intégration d'un bouton klaxon : pour rendre le jeu encore plus amusant, vous pouvez utiliser le bouton klaxon pour signaler votre passage ou pour vous amuser en appuyant dessus.
+
