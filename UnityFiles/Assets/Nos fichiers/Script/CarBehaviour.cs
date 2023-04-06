@@ -3,8 +3,15 @@ using UnityEngine;
 
 public class CarBehaviour : MonoBehaviour
 {
+    
+    public ParticleSystem PickupEffect;
     public ReticleBehaviour Reticle;
     public float Speed = 1.2f;
+    
+    public int Score { get;  set; }
+    private bool isIncrementingScore = false;
+    public ScoreManager scoreManager;
+
 
     private void Update()
     {
@@ -24,9 +31,14 @@ public class CarBehaviour : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         var Package = other.GetComponent<PackageBehaviour>();
-        if (Package != null)
+        if (Package != null && !isIncrementingScore)
         {
+            isIncrementingScore = true;
             Destroy(other.gameObject);
+            FindObjectOfType<ScoreManager>().IncrementScore();
+            this.Score += 1;
+            isIncrementingScore = false;
         }
     }
+    
 }

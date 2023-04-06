@@ -731,8 +731,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 978733870de3b41f3a19e5d285592bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PickupEffect: {fileID: 4539470775065760926, guid: e088c3ad833e9074e83c12b65cd37c95, type: 3}
   Reticle: {fileID: 0}
   Speed: 1.3
+  ScoreManager: {fileID: 0}
 --- !u!65 &7114701950064662186
 BoxCollider:
   m_ObjectHideFlags: 0
