@@ -2,6 +2,8 @@
 
 Dans ce jeu de réalité augmentée, votre objectif est de collecter des cadeaux à l'aide d'une voiture que vous contrôlez grâce à votre appareil mobile.
 
+![screenshot](https://codelabs.developers.google.com/static/arcore-unity-ar-foundation/imgs/drive.webp)
+
 ## Comment jouer 
 
 Pour jouer à ce jeu, il suffit de télécharger l'application sur votre téléphone Android, de l'ouvrir et de pointer votre téléphone vers une surface plane. En détectant le sol, le jeu créera automatiquement votre terrain de jeu. Une fois cette étape terminée, il ne vous restera plus qu'à appuyer sur l'écran pour faire apparaître la voiture et la contrôler en utilisant les mouvements de votre téléphone. La voiture suivra le pointeur bleu posé au sol.  Attention à bien mettre votre téléphone en mode portrait.
