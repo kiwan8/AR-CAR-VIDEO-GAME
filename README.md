@@ -2,7 +2,7 @@
 
 Dans ce jeu de réalité augmentée, votre objectif est de collecter des cadeaux à l'aide d'une voiture que vous contrôlez grâce à votre appareil mobile.
 
-![screenshot](https://codelabs.developers.google.com/static/arcore-unity-ar-foundation/imgs/drive.webp)
+![screenshot](https://codelabs.developers.google.com/static/arcore-unity-ar-foundation/imgs/drive.webp](https://files.codingninjas.in/article_images/creating-the-first-game-in-unity-ar-foundation-38-1664797668.webp)
 
 ## Comment jouer 
 
